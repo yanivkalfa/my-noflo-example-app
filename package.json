@@ -7,7 +7,6 @@
     "noflo": {
         "icon": "file",
         "components": {
-            //"adding": "components/addIng.js",
             "Showing": "components/showing.coffee"
         }
     }
