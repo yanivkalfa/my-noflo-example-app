@@ -1,4 +1,4 @@
-firstAp
+my-noflo-example-app
 =======
 
-firstAp
+my-noflo-example-app
