@@ -7,14 +7,14 @@ class showing extends noflo.Component
   @timer = null
   @time = null
   @inPorts = new noflo.InPorts
-    on:
+    in:
       datatype: 'number'
       description: 'Time after which a packet will be sent'
   @outPorts = new noflo.OutPorts
     out:
       datatype: 'bang'
 
-  @inPorts.time.on 'data', (@time) =>
+  @inPorts.in.on 'data', (@time) =>
     console.log @time
 
 exports.getComponent = -> new showing
