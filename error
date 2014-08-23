@@ -1,0 +1,41 @@
+# Commend :
+#/my-noflo-example-app# ./node_modules/.bin/noflo graphs/ShowContents.fbp
+
+
+# Error :
+/var/www/xxxx/my-noflo-example-app/node_modules/noflo/lib/ComponentLoader.js:140
+          throw new Error("Component " + name + " not available with base " +
+                ^
+Error: Component Showing not available with base /var/www/xxxx/my-noflo-example-app
+  at ComponentLoader.load (/var/www/xxxx/my-noflo-example-app/node_modules/noflo/lib/ComponentLoader.js:140:17)
+  at Network.load (/var/www/xxxx/my-noflo-example-app/node_modules/noflo/lib/Network.js:93:26)
+  at Network.addNode (/var/www/xxxx/my-noflo-example-app/node_modules/noflo/lib/Network.js:114:19)
+  at /var/www/xxxx/my-noflo-example-app/node_modules/noflo/lib/Network.js:199:39
+  at Network.connect (/var/www/xxxx/my-noflo-example-app/node_modules/noflo/lib/Network.js:228:14)
+  at /var/www/xxxx/my-noflo-example-app/node_modules/noflo/lib/NoFlo.js:65:22
+  at /var/www/xxxx/my-noflo-example-app/node_modules/noflo/lib/nodejs/ComponentLoader.js:162:20
+  at /var/www/xxxx/my-noflo-example-app/node_modules/noflo/node_modules/underscore/underscore.js:784:21
+  at /var/www/xxxx/my-noflo-example-app/node_modules/noflo/lib/nodejs/ComponentLoader.js:187:20
+  at /var/www/xxxx/my-noflo-example-app/node_modules/noflo/lib/nodejs/ComponentLoader.js:44:18
+  at /var/www/xxxx/my-noflo-example-app/node_modules/noflo/node_modules/underscore/underscore.js:784:21
+  at ComponentLoader.getModuleComponents (/var/www/xxxx/my-noflo-example-app/node_modules/noflo/lib/nodejs/ComponentLoader.js:69:16)
+  at /var/www/xxxx/my-noflo-example-app/node_modules/noflo/lib/nodejs/ComponentLoader.js:181:24
+  at /var/www/xxxx/my-noflo-example-app/node_modules/noflo/node_modules/read-installed/read-installed.js:130:5
+  at /var/www/xxxx/my-noflo-example-app/node_modules/noflo/node_modules/read-installed/read-installed.js:244:14
+  at cb (/var/www/xxxx/my-noflo-example-app/node_modules/noflo/node_modules/read-installed/node_modules/slide/lib/async-map.js:48:11)
+  at /var/www/xxxx/my-noflo-example-app/node_modules/noflo/node_modules/read-installed/read-installed.js:244:14
+  at cb (/var/www/xxxx/my-noflo-example-app/node_modules/noflo/node_modules/read-installed/node_modules/slide/lib/async-map.js:48:11)
+  at /var/www/xxxx/my-noflo-example-app/node_modules/noflo/node_modules/read-installed/read-installed.js:244:14
+  at cb (/var/www/xxxx/my-noflo-example-app/node_modules/noflo/node_modules/read-installed/node_modules/slide/lib/async-map.js:48:11)
+  at /var/www/xxxx/my-noflo-example-app/node_modules/noflo/node_modules/read-installed/read-installed.js:244:14
+  at cb (/var/www/xxxx/my-noflo-example-app/node_modules/noflo/node_modules/read-installed/node_modules/slide/lib/async-map.js:48:11)
+  at /var/www/xxxx/my-noflo-example-app/node_modules/noflo/node_modules/read-installed/read-installed.js:244:14
+  at cb (/var/www/xxxx/my-noflo-example-app/node_modules/noflo/node_modules/read-installed/node_modules/slide/lib/async-map.js:48:11)
+  at /var/www/xxxx/my-noflo-example-app/node_modules/noflo/node_modules/read-installed/read-installed.js:244:14
+  at cb (/var/www/xxxx/my-noflo-example-app/node_modules/noflo/node_modules/read-installed/node_modules/slide/lib/async-map.js:48:11)
+  at /var/www/xxxx/my-noflo-example-app/node_modules/noflo/node_modules/read-installed/read-installed.js:244:14
+  at asyncMap (/var/www/xxxx/my-noflo-example-app/node_modules/noflo/node_modules/read-installed/node_modules/slide/lib/async-map.js:27:18)
+  at next (/var/www/xxxx/my-noflo-example-app/node_modules/noflo/node_modules/read-installed/read-installed.js:215:5)
+  at /var/www/xxxx/my-noflo-example-app/node_modules/noflo/node_modules/read-installed/read-installed.js:167:7
+  at LOOP (evalmachine.<anonymous>:1363:14)
+  at process._tickCallback (node.js:419:13)
