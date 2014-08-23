@@ -1,0 +1,14 @@
+{
+    "name": "my-noflo-example-app",
+    "version": "0.0.1",
+    "dependencies": {
+        "noflo": "^0.5.9"
+    },
+    "noflo": {
+        "icon": "file",
+        "components": {
+            //"adding": "components/addIng.js",
+            "Showing": "components/showing.coffee"
+        }
+    }
+}
